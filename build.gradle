@@ -38,6 +38,7 @@ dependencies {
     compile "io.ktor:ktor-auth:$ktor_version"
     compile "io.ktor:ktor-auth-jwt:$ktor_version"
     compile "io.ktor:ktor-jackson:$ktor_version"
+    compile 'org.litote.kmongo:kmongo:3.9.0'
     testCompile "io.ktor:ktor-server-tests:$ktor_version"
 }
 
