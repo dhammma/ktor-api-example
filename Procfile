@@ -1,0 +1,1 @@
+web: java -jar server/example-ktor-api.jar
