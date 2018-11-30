@@ -43,6 +43,10 @@ fun Application.module(testing: Boolean = false) {
         get("/json/jackson") {
             call.respond(mapOf("hello" to "world"))
         }
+
+        get("*") {
+            call.respond(HttpStatusCode.NotFound, "Not found.")
+        }
     }
 }
 
